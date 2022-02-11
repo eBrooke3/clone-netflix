@@ -1,0 +1,158 @@
+/*CÓDIGO BASE*/
+
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--preto);
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin: 0;
+  padding: 0;
+  color: var(--vermelho);
+  font-family: "Arial Alack", Times;
+  font-size: 40px;
+}
+
+header nav a {
+  font-family: arial;
+  font-weight: bold;
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/*FILME PRINCIPAL*/
+.filmep {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.856) 50%),
+    url(/img/friday1.jpg);
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filmep .sinopse {
+  margin-bottom: 10px;
+  margin-bottom: 40px;
+  font-family: arial;
+  font-weight: lighter;
+}
+
+.titulo {
+  margin-top: 5%;
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+.botao {
+  background-color: rgba(70, 67, 67, 0.822);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-left: 40px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  border-radius: 4px;
+}
+
+.botao:hover {
+  background: aliceblue;
+  color: #141414;
+}
+
+.botao i {
+  margin-right: 5px;
+}
+
+.container {
+  margin-left: 40px;
+}
+
+.filmep .container {
+  width: 70%;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrosel-filmes {
+  margin-top: 5px;
+}
+
+.sub {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+.rodape {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.rodape p {
+  padding: 10px;
+}
+
+.brodape {
+  width: 100%;
+
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.botaof {
+  background-color: rgba(70, 67, 67, 0.822);
+  border: none;
+  color: white;
+  align-self: center;
+  padding: 15px 30px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  border-radius: 4px;
+}
+
+.botaof:hover {
+  background: aliceblue;
+  color: #141414;
+}
+
+.botaof a {
+  text-decoration: none;
+  color: white;
+}
